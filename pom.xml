@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>sonus</groupId>
+    <artifactId>sonus</artifactId>
+    <version>0.1.0</version>
+
+    <properties>
+
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+
+        <project.build.sourceEncoding>
+            UTF-8
+        </project.build.sourceEncoding>
+
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>net.jthink</groupId>
+            <artifactId>jaudiotagger</artifactId>
+            <version>3.0.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>21</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-swing</artifactId>
+            <version>21</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>javacv-platform</artifactId>
+            <version>1.5.10</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>21</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10.1</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+
+        <plugins>
+
+            <plugin>
+
+                <groupId>org.openjfx</groupId>
+
+                <artifactId>
+                    javafx-maven-plugin
+                </artifactId>
+
+                <version>0.0.8</version>
+
+                <configuration>
+
+                    <mainClass>
+                        sonus.app.SonusApplication
+                    </mainClass>
+
+                </configuration>
+
+            </plugin>
+
+        </plugins>
+
+    </build>
+
+</project>
