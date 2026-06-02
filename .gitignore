@@ -15,3 +15,6 @@ playlist.json
 
 # Log files
 *.log
+*.exe
+/META-INF
+/Sonus-1.0.exe

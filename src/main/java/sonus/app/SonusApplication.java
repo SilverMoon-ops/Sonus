@@ -133,7 +133,7 @@ public class SonusApplication
 
         stage.getIcons().add(
                 new Image(
-                        getClass().getResourceAsStream("/images/sonus-icon.png")
+                        getClass().getResourceAsStream("/images/sonus-icon.ico")
                 )
         );
 
