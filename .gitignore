@@ -1,0 +1,17 @@
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Compilation & Build outputs
+out/
+target/
+build/
+*.class
+
+# Your specific unwanted files
+playlist.json
+
+# Log files
+*.log
